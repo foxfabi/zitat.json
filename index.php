@@ -22,5 +22,7 @@ $quote = $_SESSION['quote'];
   <footer>
     <a href="https://fabforge.ch/" target="_blank">fabforge</a> &copy; <?php print date("Y"); ?>
   </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
