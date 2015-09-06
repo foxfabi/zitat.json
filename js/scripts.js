@@ -11,10 +11,10 @@ $(document).ready(function()
         });
     }
     // Load data on document ready
-    loadData();
+    // loadData();
     // Reload data after an intervall
     var refreshId = setInterval( function()
     {
       loadData();
-    }, 5000);
+    }, 25000);
 })
