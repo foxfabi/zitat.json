@@ -16,7 +16,7 @@ $quote = $_SESSION['quote'];
 <body>
   <div class="wrapper">
     <article id="placeholder"><p>
-      <?php printf("<strong>%s</strong> <small>%s</small>", $quote->quote, $quote->author); ?>
+      <?php printf("<strong>%s</strong><br/><small>%s</small>", $quote->quote, $quote->author); ?>
     </p></article>
   </div>
   <footer>
