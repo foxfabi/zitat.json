@@ -46,12 +46,3 @@ footer {
   width: 100%;
   font-size: 65%;
 }
-
-/*
-@media only screen and (min-width: 480px) {
-  article {font-size:2.135em; font-weight:500;}
-}
-@media only screen and (min-width: 1280px) {
-  article {font-size:2.835em; font-weight:500;}
-}
-*/
