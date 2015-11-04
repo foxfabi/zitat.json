@@ -4,6 +4,8 @@ BEFORE INSERT
    ON citation FOR EACH ROW
 BEGIN
   SET NEW.length = quoteLength(concatQuoteAuthor(NEW.quote, NEW.author));
+  SET NEW.created = NOW();
+  SET NEW.updated = NOW();
 END;//
 delimiter ;
 
@@ -13,5 +15,6 @@ BEFORE UPDATE
    ON citation FOR EACH ROW
 BEGIN
   SET NEW.length = quoteLength(concatQuoteAuthor(NEW.quote, NEW.author));
+  SET NEW.updated = NOW();
 END;//
 delimiter ;
