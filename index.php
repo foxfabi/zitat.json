@@ -3,13 +3,13 @@ require_once("includes/database.inc.php");
 $quote = $_SESSION['quote'];
 ?>
 <!doctype html>
-<html lang="de">
+<html lang="<?php print $_SESSION['language']; ?>">
 <head>
   <meta charset="UTF-8">
-  <title>fabfol.io - Fokus auf Lernen</title>
+  <title>zitat.json</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="shortcut icon" href="favicon.ico"> -->
-  <meta name="description" content="fabfol.io - Fokus auf Lernen">
+  <meta name="description" content="zitat.json">
   <meta name="author" content="Fabian Dennler">
   <link rel="stylesheet" href="css/styles.css">
 </head>
