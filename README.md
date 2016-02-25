@@ -18,4 +18,4 @@ Learning by: strengthening, insight and knowledge, connecting and deciding, expe
 Fetch the german open book @ https://fabforge.ch/edu/topic/zitatjson-software-agil-entwickeln
 
 ### License
-The source code of zitat.json is lecensed under the [MIT License](https://opensource.org/licenses/MIT). The open book under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) <a href="http://fabforge.ch">fabforge, Fabian Dennler</a>.
+The source code of zitat.json is licensed under the [MIT License](https://opensource.org/licenses/MIT). The open book under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) <a href="http://fabforge.ch">fabforge, Fabian Dennler</a>.
