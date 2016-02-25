@@ -10,9 +10,9 @@ if (mysqli_connect_errno()) {
   if (!mysqli_set_charset($link, "utf8")) {
       print -1;
   }
-  
+
   // If there is a result set, send it to the browser.
-  $sql = sprintf('SELECT ID, quote, author FROM citation WHERE ID != %d ORDER BY RAND() LIMIT 1;', $_SESSION['index']);
+  $sql = sprintf('SELECT ID, quote, author, language FROM citation WHERE ID != %d AND language = "%s" ORDER BY RAND() LIMIT 1;', $_SESSION['index'], $_SESSION['language']);
   if ($result = mysqli_query($link, $sql)) {
     $object = $result->fetch_object();
     // Save object into session, for later use.
